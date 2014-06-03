@@ -53,11 +53,16 @@ title: MonkeyBars
       <div class="col-md-4" ng-repeat="event in events">
         <div class="panel panel-default">
           <div class="panel-body">
-            <h3>
+            <h2>
               {(event.name)}
+            </h2>
+            <img src="{(event.logo)}" class="img-rounded">
+            <h3>
+              <small>
+                {(event.date)}
+              </small>
             </h3>
-            <img src="http://placehold.it/150x150" class="img-circle">
-            <p class="lead">
+            <p class="lead text-left">
               {(event.description)}
             </p>
           </div>
@@ -73,15 +78,16 @@ title: MonkeyBars
       Sponsors and Partners
     </h1>
     <div class="row">
-      <div class="col-md-3"><img src="/img/gogo-logo.png"></div>
-      <div class="col-md-3"><img src="/img/nokia-logo.png"></div>
-      <div class="col-md-3"><img src="/img/github-logo.png"></div>
-      <div class="col-md-3"><img src="/img/jetbrains-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/nerdery-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/gogo-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/jetbrains-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/github-logo.png"></div>
     </div>
     <div class="row">
-      <div class="col-md-4"><img src="/img/microsoft-logo.png"></div>
-      <div class="col-md-4"><img src="/img/nerdery-logo.png"></div>
-      <div class="col-md-4"><img src="/img/facebook-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/nokia-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/microsoft-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/facebook-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/google-logo.png"></div>
     </div>
   </div>
 </section>
@@ -93,19 +99,19 @@ title: MonkeyBars
     </h1>
     <div class="row">
       <div class="col-sm-4">
-        <img src="/img/flaticon-mail.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-mail.png" class="img-circle" height="125">
         <p class="lead">
           info@monkeybars.cc
         </p>
       </div>
       <div class="col-sm-4">
-        <img src="/img/flaticon-phone.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-phone.png" class="img-circle" height="125">
         <p class="lead">
           (312) 685-1850
         </p>
       </div>
       <div class="col-sm-4">
-        <img src="/img/flaticon-location.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-location.png" class="img-circle" height="125">
         <p class="lead">
           Chicago, IL
         </p>
