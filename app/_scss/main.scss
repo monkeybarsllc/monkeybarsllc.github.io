@@ -23,6 +23,10 @@ section {
   padding-top: $general-margin;
 }
 
+.panel {
+  min-height: 358px;
+}
+
 .navbar-inverse {
   background-color: darken($monkeybars-blue, 25);
 }

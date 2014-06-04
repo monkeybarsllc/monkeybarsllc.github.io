@@ -3,7 +3,7 @@ layout: default
 title: MonkeyBars
 ---
 
-<section id="highlights">
+<section id="highlights" xmlns="http://www.w3.org/1999/html">
   <div class="container text-center">
     <h1>
       We host hackathons in Chicago
@@ -54,12 +54,36 @@ title: MonkeyBars
         <div class="panel panel-default">
           <div class="panel-body">
             <h3>
-              {(event.name)}
+              {(event.name)} <br/>
+              <small>
+                {(event.date)}
+              </small>
             </h3>
-            <img src="http://placehold.it/150x150" class="img-circle">
-            <p class="lead">
-              {(event.description)}
-            </p>
+            <img src="{(event.logo)}" class="img-rounded">
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2">
+                <div class="col-xs-4">
+                  <a href="{(event.social.eventbrite)}" target="_blank">
+                    <img src="/img/icons/eventbrite-icon.png">
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="{(event.social.facebook)}" target="_blank">
+                    <img src="/img/icons/facebook-icon.png" class="img-circle">
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="{(event.social.youtube)}" target="_blank">
+                    <img src="/img/icons/youtube-icon.png" class="img-circle">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <blockquote>
+              <p class="text-left">
+                {(event.description)}
+              </p>
+            </blockquote>
           </div>
         </div>
       </div>
@@ -73,15 +97,16 @@ title: MonkeyBars
       Sponsors and Partners
     </h1>
     <div class="row">
-      <div class="col-md-3"><img src="/img/gogo-logo.png"></div>
-      <div class="col-md-3"><img src="/img/nokia-logo.png"></div>
-      <div class="col-md-3"><img src="/img/github-logo.png"></div>
-      <div class="col-md-3"><img src="/img/jetbrains-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/nerdery-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/gogo-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/jetbrains-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/github-logo.png"></div>
     </div>
     <div class="row">
-      <div class="col-md-4"><img src="/img/microsoft-logo.png"></div>
-      <div class="col-md-4"><img src="/img/nerdery-logo.png"></div>
-      <div class="col-md-4"><img src="/img/facebook-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/nokia-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/microsoft-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/facebook-logo.png"></div>
+      <div class="col-md-3"><img src="/img/affiliates/google-logo.png"></div>
     </div>
   </div>
 </section>
@@ -93,19 +118,19 @@ title: MonkeyBars
     </h1>
     <div class="row">
       <div class="col-sm-4">
-        <img src="/img/flaticon-mail.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-mail.png" class="img-circle" height="125">
         <p class="lead">
           info@monkeybars.cc
         </p>
       </div>
       <div class="col-sm-4">
-        <img src="/img/flaticon-phone.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-phone.png" class="img-circle" height="125">
         <p class="lead">
           (312) 685-1850
         </p>
       </div>
       <div class="col-sm-4">
-        <img src="/img/flaticon-location.png" class="img-circle" height="125">
+        <img src="/img/icons/flaticon-location.png" class="img-circle" height="125">
         <p class="lead">
           Chicago, IL
         </p>
