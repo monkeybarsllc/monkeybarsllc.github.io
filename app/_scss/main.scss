@@ -32,6 +32,10 @@ section {
   background-color: darken($monkeybars-blue, 25);
 }
 
+.title {
+  margin-bottom: ($general-margin*1.5);
+}
+
 .top {
   background-color: lighten($monkeybars-blue, 10);
   min-height: 540px;
