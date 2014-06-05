@@ -47,3 +47,26 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
   ];
 
 }]);
+
+app.controller('AboutCtrl', ['$scope', function($scope) {
+
+  $scope.team = [
+    {
+      name: 'Taylor Harvey',
+      title: 'Co-Founder | Social Engineer'
+    },
+    {
+      name: 'Emmanuel Marcha',
+      title: 'Co-Founder | Developer'
+    },
+    {
+      name: 'Rani Shah',
+      title: 'Strategist'
+    },
+    {
+      name: 'Van Mac',
+      title: 'Logistics'
+    }
+  ]
+
+}]);

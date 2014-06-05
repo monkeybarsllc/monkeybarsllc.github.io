@@ -3,20 +3,58 @@ layout: default
 title: About Page
 ---
 
-<section id="mission">
-  <p>
-    Something about what we do
-  </p>
+<section id="mission" class="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1 class="text-center">
+          MonkeyBars facilitates engagement with your passion.
+        </h1>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="team">
-  <p>
-    Some team info about stuffs
-  </p>
+<section id="history">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>
+          We merge talent, skill, and desire <br/>
+          <small>
+            MonkeyBars was born out of the need for a place to explore and tinker.
+          </small>
+        </h2>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="extra">
-  <p>
-    Whatever other bleh marketing stuff we think should make sense
-  </p>
+<section id="team" ng-controller="AboutCtrl">
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <h2>
+          Meet the MonkeyBars team <br/>
+          <small>
+            We love working with the right people to bring our community together.
+          </small>
+        </h2>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-3" ng-repeat="member in team">
+        <img src="http://placehold.it/125.125" class="img-circle">
+        <h4>
+          {(member.name)} <br>
+          <small>
+            {(member.title)}
+          </small>
+        </h4>
+      </div>
+    </div>
+
+  </div>
 </section>

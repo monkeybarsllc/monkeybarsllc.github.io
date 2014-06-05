@@ -23,6 +23,7 @@ section {
   padding-top: $general-margin;
 }
 
+
 .panel {
   min-height: 358px;
 }
@@ -31,15 +32,25 @@ section {
   background-color: darken($monkeybars-blue, 25);
 }
 
-#highlights {
+.top {
   background-color: lighten($monkeybars-blue, 10);
   min-height: 540px;
   color: lighten($monkeybars-blue, 80);
   small {
     color: #ffffff;
   }
+}
+
+
+#highlights {
   #mc_embed_signup {
     margin-top: ($general-margin/2);
+  }
+}
+
+#mission {
+  h1 {
+    margin-top: 168px;
   }
 }
 
