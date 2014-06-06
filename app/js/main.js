@@ -63,7 +63,7 @@ app.controller('AboutCtrl', ['$scope', function($scope) {
     },
     {
       name: 'Rani Shah',
-      title: 'Strategist',
+      title: 'Strategy Engineer',
       pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png'
     },
     {
