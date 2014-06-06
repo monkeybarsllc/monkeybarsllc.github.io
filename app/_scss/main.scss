@@ -23,6 +23,7 @@ section {
   padding-top: $general-margin;
 }
 
+
 .panel {
   min-height: 358px;
 }
@@ -31,15 +32,31 @@ section {
   background-color: darken($monkeybars-blue, 25);
 }
 
-#highlights {
+.title {
+  margin-bottom: ($general-margin*1.5);
+}
+
+.top {
   background-color: lighten($monkeybars-blue, 10);
   min-height: 540px;
-  color: lighten($monkeybars-blue, 80);
+  color: lighten($monkeybars-blue, 60);
   small {
     color: #ffffff;
   }
+}
+
+
+#highlights {
+  background-image: url("/img/home-background.png");
   #mc_embed_signup {
     margin-top: ($general-margin/2);
+  }
+}
+
+#mission {
+  background-image: url("/img/about-background.png");
+  h1 {
+    margin-top: 168px;
   }
 }
 
@@ -49,5 +66,11 @@ section {
   }
   p {
     margin-top: 12px;
+  }
+}
+
+#team {
+  h4 {
+    margin-bottom: $general-margin;
   }
 }

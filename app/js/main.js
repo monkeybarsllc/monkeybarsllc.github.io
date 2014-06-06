@@ -47,3 +47,30 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
   ];
 
 }]);
+
+app.controller('AboutCtrl', ['$scope', function($scope) {
+
+  $scope.team = [
+    {
+      name: 'Taylor Harvey',
+      title: 'Co-Founder | Social Engineer',
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/taylor.png'
+    },
+    {
+      name: 'Emmanuel Marcha',
+      title: 'Co-Founder | Developer',
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/manny.png'
+    },
+    {
+      name: 'Rani Shah',
+      title: 'Strategist',
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png'
+    },
+    {
+      name: 'Van Mac',
+      title: 'Logistics',
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/van.png'
+    }
+  ]
+
+}]);
