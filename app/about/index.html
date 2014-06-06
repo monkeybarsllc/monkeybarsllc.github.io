@@ -25,6 +25,24 @@ title: About Page
       </small>
     </h2>
 
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h3>
+          Learn
+        </h3>
+      </div>
+      <div class="col-md-4">
+        <h3>
+          Collaborate
+        </h3>
+      </div>
+      <div class="col-md-4">
+        <h3>
+          Build
+        </h3>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -40,7 +58,7 @@ title: About Page
 
     <div class="row text-center">
       <div class="col-md-3" ng-repeat="member in team">
-        <img src="http://placehold.it/125.125" class="img-circle">
+        <img src="{(member.pic)}" class="img-circle" height="125">
         <h4>
           {(member.name)} <br>
           <small>
