@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Page
+title: About
 ---
 
 <section id="mission" class="top">
@@ -63,27 +63,4 @@ title: About Page
   </div>
 </section>
 
-<section id="team" ng-controller="AboutCtrl">
-  <div class="container">
-
-    <h2 class="text-center title">
-      Meet the MonkeyBars team <br/>
-      <small>
-        We work hard to create the best experience possible.
-      </small>
-    </h2>
-
-    <div class="row text-center">
-      <div class="col-md-3" ng-repeat="member in team">
-        <img src="{(member.pic)}" class="img-circle" height="125">
-        <h4>
-          {(member.name)} <br>
-          <small>
-            {(member.title)}
-          </small>
-        </h4>
-      </div>
-    </div>
-
-  </div>
-</section>
+{% include team.html %}
