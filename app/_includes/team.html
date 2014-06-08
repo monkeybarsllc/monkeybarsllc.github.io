@@ -1,0 +1,26 @@
+<section id="team" ng-controller="AboutCtrl">
+  <div class="container">
+
+    <h2 class="text-center title">
+      Meet the MonkeyBars team <br/>
+      <small>
+        We work hard to create the best experience possible.
+      </small>
+    </h2>
+
+    <div class="row text-center">
+      <div class="col-md-3" ng-repeat="member in team">
+        <a href="{(member.bio)}">
+          <img src="{(member.pic)}" class="img-circle" height="125">
+          <h4>
+            {(member.name)} <br>
+            <small>
+              {(member.title)}
+            </small>
+          </h4>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
