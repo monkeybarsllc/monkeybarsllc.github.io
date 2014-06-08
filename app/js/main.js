@@ -48,29 +48,39 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
 
 }]);
 
-app.controller('AboutCtrl', ['$scope', function($scope) {
+app.controller('AboutCtrl', ['$filter', '$scope', function($filter, $scope) {
+
+  $scope.selectedProfile = null;
 
   $scope.team = [
     {
       name: 'Taylor Harvey',
       title: 'Co-Founder | Social Engineer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/taylor.png'
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/taylor.png',
+      bio: '/team/taylor-harvey.html'
     },
     {
       name: 'Emmanuel Marcha',
       title: 'Co-Founder | Developer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/manny.png'
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/manny.png',
+      bio: '/team/emmanuel-marcha.html'
     },
     {
       name: 'Rani Shah',
       title: 'Strategy Engineer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png'
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png',
+      bio: '/team/rani-shah.html'
     },
     {
       name: 'Van Mac',
       title: 'Logistics',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/van.png'
+      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/van.png',
+      bio: '/team/van-mac.html'
     }
   ]
+
+  $scope.selectProfile = function(member) {
+    $scope.selectedProfile = ($filter('filter')($scope.team, member))[0];
+  };
 
 }]);

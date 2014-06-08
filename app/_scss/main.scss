@@ -81,6 +81,15 @@ section {
   }
 }
 
+#member-profile {
+  h2 {
+    margin-bottom: ($general-margin*1.5);
+  }
+  img {
+    margin-top: $general-margin;
+  }
+}
+
 #mission {
   @include responsive-bg-image('about-background');
   h1 {
@@ -98,6 +107,19 @@ section {
 }
 
 #team {
+  a {
+    img {
+      border: 3px solid #ffffff;
+    }
+    text-decoration: none;
+    color: darken($monkeybars-blue, 25);
+    &:hover {
+      color: lighten($monkeybars-blue, 10);
+      img {
+        border: 3px solid lighten($monkeybars-blue, 10);
+      }
+    }
+  }
   h4 {
     margin-bottom: $general-margin;
   }
