@@ -44,55 +44,7 @@ title: MonkeyBars
   </div>
 </section>
 
-<section id="previous-events" ng-controller="HomeCtrl">
-  <div class="container text-center">
-    <h2 class="title">
-      Previous Events <br/>
-      <small>
-        We've hosted a variety of events, from open to client-focused.
-      </small>
-    </h2>
-    <div class="row event-row">
-      <div class="col-md-4" ng-repeat="event in events">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <h3>
-              {(event.name)} <br/>
-              <small>
-                {(event.date)}
-              </small>
-            </h3>
-            <img src="{(event.logo)}" class="img-rounded">
-            <div class="row">
-              <div class="col-xs-8 col-xs-offset-2">
-                <div class="col-xs-4">
-                  <a href="{(event.social.eventbrite)}" target="_blank">
-                    <img src="/img/icons/eventbrite-icon.png">
-                  </a>
-                </div>
-                <div class="col-xs-4">
-                  <a href="{(event.social.facebook)}" target="_blank">
-                    <img src="/img/icons/facebook-icon.png" class="img-circle">
-                  </a>
-                </div>
-                <div class="col-xs-4">
-                  <a href="{(event.social.youtube)}" target="_blank">
-                    <img src="/img/icons/youtube-icon.png" class="img-circle">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <blockquote>
-              <p class="text-left">
-                {(event.description)}
-              </p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include prev-events.html %}
 
 <section id="affiliates">
   <div class="container text-center">
