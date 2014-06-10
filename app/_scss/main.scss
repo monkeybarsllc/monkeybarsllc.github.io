@@ -74,6 +74,21 @@ section {
 }
 
 
+#event-summary {
+  .banner {
+    padding-top: $general-margin;
+    padding-bottom: $general-margin;
+    border-top: 1px solid $monkeybars-blue;
+    border-bottom: 1px solid $monkeybars-blue;
+  }
+  .lead {
+    margin-top: 18px;
+  }
+  .list-group {
+    min-height: 300px;
+  }
+}
+
 #highlights {
   @include responsive-bg-image('home-background');
   #mc_embed_signup {
@@ -103,6 +118,19 @@ section {
   }
   p {
     margin-top: 12px;
+  }
+  a {
+    img {
+      border: 3px solid #ffffff;
+    }
+    text-decoration: none;
+    color: darken($monkeybars-blue, 25);
+    &:hover {
+      color: lighten($monkeybars-blue, 10);
+      img {
+        border: 3px solid lighten($monkeybars-blue, 10);
+      }
+    }
   }
 }
 

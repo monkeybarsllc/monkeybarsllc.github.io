@@ -14,8 +14,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
     {
       name: 'Re-Imagination Challenge',
       date: '3/29/14 - 3/30/14',
-      description: 'Get a team together to improve IIT.',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/event-logos/reimagination.png',
+      brief: 'Get a team together to improve IIT.',
+      link: '/events/re-imagination-challenge.html',
+      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png',
       social: {
         eventbrite: 'http://www.eventbrite.com/e/the-re-imagination-challenge-tickets-10859604369',
         facebook: 'https://www.facebook.com/events/221841218013032/',
@@ -25,8 +26,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
     {
       name: 'Gogo Hackathon',
       date: '2/22/14 - 2/23/14',
-      description: 'Generate a product or idea that helps air travelers stay connected.',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/event-logos/gogo.png',
+      brief: 'Generate a product or idea that helps air travelers stay connected.',
+      link: '/events/gogo-hackathon.html',
+      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png',
       social: {
         eventbrite: 'http://www.eventbrite.com/e/gogo-hackathon-tickets-8579815459',
         facebook: 'https://www.facebook.com/events/1443211745907777/',
@@ -36,8 +38,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
     {
       name: 'The Forge',
       date: '10/26/13 - 10/27/13',
-      description: 'Celebrate Chicago’s emergence as a global innovation hub.',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/event-logos/forge.png',
+      brief: 'Celebrate Chicago’s emergence as a global innovation hub.',
+      link: '/events/the-forge.html',
+      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png',
       social: {
         eventbrite: 'http://www.eventbrite.com/e/monkeybars-presents-the-forge-hackathon-tickets-8225517745',
         facebook: 'https://www.facebook.com/events/1449013238657677/',
