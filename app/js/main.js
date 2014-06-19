@@ -17,10 +17,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
       brief: 'Get a team together to improve IIT.',
       link: '/events/re-imagination-challenge.html',
       logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png',
-      social: {
-        eventbrite: 'http://www.eventbrite.com/e/the-re-imagination-challenge-tickets-10859604369',
-        facebook: 'https://www.facebook.com/events/221841218013032/',
-        youtube: 'https://www.youtube.com/user/MonkeyBarsCommunity/playlists'
+      quote: {
+        description: 'Some awesome quote about this event',
+        source: 'Some Person, Some Title'
       }
     },
     {
@@ -29,10 +28,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
       brief: 'Generate a product or idea that helps air travelers stay connected.',
       link: '/events/gogo-hackathon.html',
       logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png',
-      social: {
-        eventbrite: 'http://www.eventbrite.com/e/gogo-hackathon-tickets-8579815459',
-        facebook: 'https://www.facebook.com/events/1443211745907777/',
-        youtube: 'https://www.youtube.com/playlist?list=PL53uXvzoXmROt8unzhHpz54rvJMqXsura'
+      quote: {
+        description: 'Some awesome quote about this event',
+        source: 'Some Person, Some Title'
       }
     },
     {
@@ -41,10 +39,9 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
       brief: 'Celebrate Chicago’s emergence as a global innovation hub.',
       link: '/events/the-forge.html',
       logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png',
-      social: {
-        eventbrite: 'http://www.eventbrite.com/e/monkeybars-presents-the-forge-hackathon-tickets-8225517745',
-        facebook: 'https://www.facebook.com/events/1449013238657677/',
-        youtube: 'https://www.youtube.com/user/MonkeyBarsCommunity/playlists'
+      quote: {
+        description: 'Some awesome quote about this event',
+        source: 'Some Person, Some Title'
       }
     }
   ];

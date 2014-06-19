@@ -1,4 +1,6 @@
 $monkeybars-blue: #4B6686;
+$monkeybars-brown: #573724;
+$monkeybars-lightbrown: #D2B9A0;
 $general-margin: 32px;
 
 
@@ -34,15 +36,6 @@ body {
   color: darken($monkeybars-blue, 25);
 }
 
-footer {
-  background-color: darken($monkeybars-blue, 25);
-  height: 84px;
-  color: lighten($monkeybars-blue, 80);
-  padding-top: $general-margin;
-  padding-bottom: $general-margin;
-  margin-top: $general-margin;
-}
-
 h1 {
   margin-bottom: $general-margin;
 }
@@ -53,7 +46,7 @@ section {
 
 
 .panel {
-  min-height: 450px;
+  min-height: 320px;
 }
 
 .navbar-inverse {
@@ -84,6 +77,15 @@ section {
   .lead {
     margin-top: 18px;
   }
+}
+
+#site-footer {
+  background-color: darken($monkeybars-blue, 25);
+  height: 84px;
+  color: lighten($monkeybars-blue, 80);
+  padding-top: $general-margin;
+  padding-bottom: $general-margin;
+  margin-top: $general-margin;
 }
 
 #highlights {
