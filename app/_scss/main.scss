@@ -79,15 +79,6 @@ section {
   }
 }
 
-#site-footer {
-  background-color: darken($monkeybars-blue, 25);
-  height: 84px;
-  color: lighten($monkeybars-blue, 80);
-  padding-top: $general-margin;
-  padding-bottom: $general-margin;
-  margin-top: $general-margin;
-}
-
 #highlights {
   @include responsive-bg-image('home-background');
   #mc_embed_signup {
@@ -150,4 +141,13 @@ section {
   h4 {
     margin-bottom: $general-margin;
   }
+}
+
+#site-footer {
+  background-color: darken($monkeybars-blue, 25);
+  height: 84px;
+  color: lighten($monkeybars-blue, 80);
+  padding-top: $general-margin;
+  padding-bottom: $general-margin;
+  margin-top: $general-margin;
 }
