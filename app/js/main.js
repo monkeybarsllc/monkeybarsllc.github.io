@@ -17,39 +17,22 @@ app.controller('HomeCtrl', ['$http', '$scope', function($http, $scope) {
 
 }]);
 
-app.controller('AboutCtrl', ['$filter', '$scope', function($filter, $scope) {
+app.controller('AboutCtrl', ['$filter', '$http', '$scope', function($filter, $http, $scope) {
 
-  $scope.selectedProfile = null;
+  $http.get('/team/members.json')
+    .success(function(data) {
+      $scope.team = data;
+    });
 
-  $scope.team = [
-    {
-      name: 'Taylor Harvey',
-      title: 'Co-Founder | Social Engineer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/taylor.png',
-      bio: '/team/taylor-harvey.html'
-    },
-    {
-      name: 'Emmanuel Marcha',
-      title: 'Co-Founder | Developer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/manny.png',
-      bio: '/team/emmanuel-marcha.html'
-    },
-    {
-      name: 'Rani Shah',
-      title: 'Strategy Engineer',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png',
-      bio: '/team/rani-shah.html'
-    },
-    {
-      name: 'Van Mac',
-      title: 'Logistics',
-      pic: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/van.png',
-      bio: '/team/van-mac.html'
-    }
-  ]
+}]);
 
-  $scope.selectProfile = function(member) {
-    $scope.selectedProfile = ($filter('filter')($scope.team, member))[0];
+app.controller('ProfileCtrl', ['$http', '$scope', function($http, $scope) {
+
+  $scope.getData = function(data) {
+    $http.get('/team/' + data + '.json')
+      .success(function(data) {
+        $scope.member = data;
+      });
   };
 
 }]);
