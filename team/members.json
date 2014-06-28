@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Taylor Harvey",
+    "title": "Co-Founder | Social Engineer",
+    "pic": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/taylor.png",
+    "link": "taylor-harvey"
+  },
+  {
+    "name": "Emmanuel Marcha",
+    "title": "Co-Founder | Developer",
+    "pic": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/manny.png",
+    "link": "emmanuel-marcha"
+  },
+  {
+    "name": "Rani Shah",
+    "title": "Strategy Engineer",
+    "pic": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/rani.png",
+    "link": "rani-shah"
+  },
+  {
+    "name": "Van Mac",
+    "title": "Logistics",
+    "pic": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/profile-pics/van.png",
+    "link": "van-mac"
+  }
+]
