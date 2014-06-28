@@ -8,43 +8,12 @@ app.config(['$interpolateProvider', function($interpolateProvider) {
 }]);
 
 
-app.controller('HomeCtrl', ['$scope', function($scope) {
+app.controller('HomeCtrl', ['$http', '$scope', function($http, $scope) {
 
-  $scope.events = [
-    {
-      name: 'Re-Imagination Challenge',
-      date: '3/29/14 - 3/30/14',
-      brief: 'Get a team together to improve IIT.',
-      link: '/events/re-imagination-challenge.html',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png',
-      quote: {
-        description: 'Some awesome quote about this event',
-        source: 'Some Person, Some Title'
-      }
-    },
-    {
-      name: 'Gogo Hackathon',
-      date: '2/22/14 - 2/23/14',
-      brief: 'Generate a product or idea that helps air travelers stay connected.',
-      link: '/events/gogo-hackathon.html',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png',
-      quote: {
-        description: 'Some awesome quote about this event',
-        source: 'Some Person, Some Title'
-      }
-    },
-    {
-      name: 'The Forge',
-      date: '10/26/13 - 10/27/13',
-      brief: 'Celebrate Chicago’s emergence as a global innovation hub.',
-      link: '/events/the-forge.html',
-      logo: 'https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png',
-      quote: {
-        description: 'Some awesome quote about this event',
-        source: 'Some Person, Some Title'
-      }
-    }
-  ];
+  $http.get('/events/events.json')
+    .success(function(data) {
+      $scope.events = data;
+    });
 
 }]);
 
@@ -81,6 +50,17 @@ app.controller('AboutCtrl', ['$filter', '$scope', function($filter, $scope) {
 
   $scope.selectProfile = function(member) {
     $scope.selectedProfile = ($filter('filter')($scope.team, member))[0];
+  };
+
+}]);
+
+app.controller('EventCtrl', ['$http', '$scope', function($http, $scope) {
+
+  $scope.getData = function(data) {
+    $http.get('/events/' + data + '.json')
+      .success(function(data) {
+        $scope.event = data;
+      });
   };
 
 }]);

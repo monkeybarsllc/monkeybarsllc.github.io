@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section id="event-summary"
+         ng-controller="EventCtrl"
+         ng-init="getData('{{ page.location }}')">
+  <div class="container text-center">
+
+    <img src="{(event.banner)}" class="img-responsive banner">
+
+    <div class="row">
+      <h1>
+        {(event.title)}<br/>
+        <small>{(event.dates)}</small>
+      </h1>
+
+      <div class="col-md-6 text-left">
+        <h3>
+          What's the story?
+        </h3>
+        <blockquote>
+          <p>{(event.story)}</p>
+        </blockquote>
+      </div>
+
+      <div class="col-md-6 text-left">
+
+        <div class="row">
+          <div class="col-sm-6" ng-repeat="day in event.schedule">
+            <ul class="list-group">
+              <h4>{(day.date)}</h4>
+              <li class="list-group-item" ng-repeat="item in day.items">
+                <b>{(item.time)}</b>- {(item.description)}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row text-left">
+      <h3>Prizes</h3>
+      <div class="col-md-4" ng-repeat="category in event.prizeCategories">
+        <h4>{(category.title)}</h4>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-info">
+            <b>Each team member will receive...</b>
+          </li>
+          <li class="list-group-item" ng-repeat="prize in category.individualPrizes">
+            {(prize.description)}
+          </li>
+          <li class="list-group-item list-group-item-info">
+            <b>The whole team will receive...</b>
+          </li>
+          <li class="list-group-item" ng-repeat="prize in category.teamPrizes">
+            {(prize.description)}
+          </li>
+        </ul>
+        <h4>Winning Team:</h4>
+        <img src="{(category.winningTeam.imageLink)}" class="img-responsive">
+        <h4>{(category.winningTeam.teamName)}<br/>
+          <small>
+            - {(category.winningTeam.projectBrief)}
+          </small>
+        </h4>
+      </div>
+    </div>
+
+  </div>
+</section>

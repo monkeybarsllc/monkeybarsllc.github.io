@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Re-Imagination Challenge",
+    "date": "3/29/14 - 3/30/14",
+    "brief": "Get a team together to improve IIT.",
+    "link": "re-imagination-challenge",
+    "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png",
+    "quote": {
+      "description": "Some awesome quote about this event",
+      "source": "Some Person, Some Title"
+    }
+  },
+  {
+    "name": "Gogo Hackathon",
+    "date": "2/22/14 - 2/23/14",
+    "brief": "Generate a product or idea that helps air travelers stay connected.",
+    "link": "gogo-hackathon",
+    "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png",
+    "quote": {
+      "description": "Some awesome quote about this event",
+      "source": "Some Person, Some Title"
+    }
+  },
+  {
+    "name": "The Forge",
+    "date": "10/26/13 - 10/27/13",
+    "brief": "Celebrate Chicago’s emergence as a global innovation hub.",
+    "link": "the-forge",
+    "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png",
+    "quote": {
+      "description": "Some awesome quote about this event",
+      "source": "Some Person, Some Title"
+    }
+  }
+]

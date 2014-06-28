@@ -1,0 +1,38 @@
+{
+  "title": "",
+  "dates": "",
+  "banner": "",
+  "story": "",
+  "schedule": [
+    {
+      "date": "",
+      "items": [
+        {
+          "time": "",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "prizeCategories": [
+    {
+      "title": "",
+      "teamPrizes": [
+        {
+          "description": ""
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": ""
+        }
+      ],
+      "winningTeam":
+        {
+          "imageLink": "",
+          "teamName": "",
+          "projectBrief": ""
+        }
+    }
+  ]
+}
