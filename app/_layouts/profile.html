@@ -2,14 +2,29 @@
 layout: default
 ---
 
-<section id="member-profile">
-
+<section id="member-profile"
+         ng-controller="ProfileCtrl"
+         ng-init="getData('{{ page.location }}')">
   <div class="row text-center">
     <div class="col-md-4 col-md-offset-4">
-      {{ content }}
+
+      <img src="{(member.pic)}" height="250" class="img-circle">
+
+      <h2>
+        {(member.name)} <br/>
+        <small>
+          {(member.title)}
+        </small>
+      </h2>
+
+      <div class="lead text-left">
+        <p>
+          {(member.story)}
+        </p>
+      </div>
+
     </div>
   </div>
-
 </section>
 
 {% include team.html %}

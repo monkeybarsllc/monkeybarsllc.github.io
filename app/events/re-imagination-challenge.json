@@ -1,0 +1,125 @@
+{
+  "title": "Re-Imagination Challenge",
+  "dates": "March 29 - 30, 2014",
+  "banner": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/banner.png",
+  "story": "Hey IIT Students, put the money where your mouth is and create some innovative ideas to change the face of IIT. Get a team together to improve our school in this Hackathon style challenge. 24 hours of re-imagination. Are you ready? Participants will have the chance to be mentored by Google employees and Institute of Design faculty/students. Winning ideas will be implemented on campus.",
+  "schedule": [
+    {
+      "date": "Saturday - March 29th",
+      "items": [
+        {
+          "time": "11:00am",
+          "description": "Doors Open & Check in begins"
+        },
+        {
+          "time": "11:30am",
+          "description": "Refreshments and Opening Remarks"
+        },
+        {
+          "time": "12:30pm",
+          "description": "Building Starts!"
+        },
+        {
+          "time": "2:00pm",
+          "description": "Lunch Time"
+        },
+        {
+          "time": "7:00pm",
+          "description": "Dinner Time & Group Project Share"
+        },
+        {
+          "time": "11:00pm",
+          "description": "Late Nigh Snacks & Expo"
+        }
+      ]
+    },
+    {
+      "date": "Sunday - March 30th",
+      "items": [
+        {
+          "time": "7:00am",
+          "description": "Breakfast"
+        },
+        {
+          "time": "11:00am",
+          "description": "Lunch Time"
+        },
+        {
+          "time": "12:00pm",
+          "description": "Building Stops!"
+        },
+        {
+          "time": "12:30pm",
+          "description": "Final Project Presentations"
+        },
+        {
+          "time": "2:00pm",
+          "description": "Prizes Announced and Closing Remarks"
+        },
+        {
+          "time": "3:00pm",
+          "description": "Goodbye's"
+        }
+      ]
+    }
+  ],
+  "prizeCategories": [
+    {
+      "title": "Simple Implementation",
+      "teamPrizes": [
+        {
+          "description": "1 UP Mini 3D Printer (Sponsored by Inventables)"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "3 months free access to Blue1647"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/peer-choice.jpg",
+        "teamName": "Team 363",
+        "projectBrief": "gamify-ing the college experience"
+      }
+    },
+    {
+      "title": "Complex Implementation",
+      "teamPrizes": [
+        {
+          "description": "1 Jetbrains IDE"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "1 Leap Motion"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/judges-first.jpg",
+        "teamName": "Plannr",
+        "projectBrief": "a better course planner for students"
+      }
+    },
+    {
+      "title": "Peer Choice",
+      "teamPrizes": [
+        {
+          "description": "1 Jetbrains IDE"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "1 $100 Gift Card to Inventables"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/judges-second.jpg",
+        "teamName": "PublicIITy",
+        "projectBrief": "IIT highlights in podcast form"
+      }
+    }
+  ]
+}

@@ -4,29 +4,29 @@ $monkeybars-lightbrown: #D2B9A0;
 $general-margin: 32px;
 
 
-@mixin responsive-bg-image($image-name) {
+@mixin responsive-bg-image($directory) {
   width: 100%;
-//  background-size: 100% 100%;
+  //  background-size: 100% 100%;
   background-repeat: no-repeat;
   /* Retina */
   @media screen and (min-width: 1024px){
-    background-image: url('/img/#{$image-name}/retina.png');
+    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/retina.png');
   }
   /* Desktop */
   @media screen and (min-width: 980px) and (max-width: 1024px){
-    background-image: url('/img/#{$image-name}/desktop.png');
+    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/desktop.png');
   }
   /* Tablet */
   @media screen and (min-width: 760px) and (max-width: 980px){
-    background-image: url('/img/#{$image-name}/tablet.png');
+    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/tablet.png');
   }
   /* Mobile HD */
   @media screen and (min-width: 350px) and (max-width: 760px){
-    background-image: url('/img/#{$image-name}/mobile-hd.png');
+    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/mobile-hd.png');
   }
   /* Mobile LD */
   @media screen and (max-width: 350px){
-    background-image: url('/img/#{$image-name}/mobile-ld.png');
+    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/mobile-ld.png');
   }
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 #highlights {
-  @include responsive-bg-image('home-background');
+  @include responsive-bg-image('home');
   #mc_embed_signup {
     margin-top: ($general-margin/2);
   }
@@ -96,7 +96,7 @@ section {
 }
 
 #mission {
-  @include responsive-bg-image('about-background');
+  @include responsive-bg-image('about');
   h1 {
     margin-top: 168px;
   }
