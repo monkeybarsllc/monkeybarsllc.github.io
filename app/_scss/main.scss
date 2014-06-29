@@ -30,6 +30,22 @@ $general-margin: 32px;
   }
 }
 
+@mixin image-links {
+  a {
+    img {
+      border: 3px solid lightgray;
+    }
+    text-decoration: none;
+    color: darken($monkeybars-blue, 25);
+    &:hover {
+      color: lighten($monkeybars-blue, 10);
+      img {
+        border: 3px solid lighten($monkeybars-blue, 10);
+      }
+    }
+  }
+}
+
 
 body {
   padding-top: 50px;
@@ -47,6 +63,16 @@ section {
 
 .panel {
   min-height: 320px;
+}
+
+.panel-default {
+  $blue: lighten($monkeybars-blue, 10);
+  border-color: $blue;
+  > .panel-heading {
+    color: white;
+    background-color: $blue;
+    border-color: $blue;
+  }
 }
 
 .navbar-inverse {
@@ -103,41 +129,17 @@ section {
 }
 
 #previous-events {
+  @include image-links;
   img {
     margin-top: 12px;
   }
   p {
     margin-top: 12px;
   }
-  a {
-    img {
-      border: 3px solid lightgray;
-    }
-    text-decoration: none;
-    color: darken($monkeybars-blue, 25);
-    &:hover {
-      color: lighten($monkeybars-blue, 10);
-      img {
-        border: 3px solid lighten($monkeybars-blue, 10);
-      }
-    }
-  }
 }
 
 #team {
-  a {
-    img {
-      border: 3px solid lightgray;
-    }
-    text-decoration: none;
-    color: darken($monkeybars-blue, 25);
-    &:hover {
-      color: lighten($monkeybars-blue, 10);
-      img {
-        border: 3px solid lighten($monkeybars-blue, 10);
-      }
-    }
-  }
+  @include image-links;
   h4 {
     margin-bottom: $general-margin;
   }
