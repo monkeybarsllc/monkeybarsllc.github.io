@@ -17,8 +17,8 @@
     "link": "gogo-hackathon",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png",
     "quote": {
-      "description": "Some awesome quote about this event",
-      "source": "Some Person, Some Title"
+      "description": "... it was a great experience to get people that aren’t exposed to our technologies to come up with ideas. Just seeing how much can be built in a short period... our team usually takes a lot longer.",
+      "source": "VP of Software Development"
     }
   },
   {
@@ -28,8 +28,8 @@
     "link": "the-forge",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png",
     "quote": {
-      "description": "Some awesome quote about this event",
-      "source": "Some Person, Some Title"
+      "description": "I think anytime you end up with a group...on a bigger scale, you gain experience working with other people and bridging ideas and that’s what’s really important about hackathons.",
+      "source": "Participant from DePaul"
     }
   }
 ]
