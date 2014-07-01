@@ -67,7 +67,7 @@ section {
 
 .panel-default {
   $blue: lighten($monkeybars-blue, 20);
-  border-color: $monkeybars-blue;
+  border-color: $blue;
   > .panel-heading {
     color: white;
     background-color: $blue;
