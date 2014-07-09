@@ -47,3 +47,12 @@ app.controller('EventCtrl', ['$http', '$scope', function($http, $scope) {
   };
 
 }]);
+
+app.controller('FaqCtrl', ['$http', '$scope', function($http, $scope) {
+
+  $http.get('/faq/questions.json')
+    .success(function(data) {
+      $scope.questions = data;
+    });
+
+}]);
