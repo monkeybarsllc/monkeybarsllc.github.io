@@ -1,0 +1,36 @@
+---
+layout: default
+title: FAQ
+---
+
+<section id="faq" class="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="text-center title">
+          Frequently asked questions from our previous events
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="questions" ng-controller="FaqCtrl">
+  <div class="container">
+
+    <div ng-repeat="question in questions">
+      <h2 class="title">{(question.question)}</h2>
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+          <p><b>The short version...</b></p>
+          <p>{(question.answers.short)}</p>
+        </div>
+        <div class="col-lg-5">
+          <p><b>The long version...</b></p>
+          <p>{(question.answers.long)}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
