@@ -19,14 +19,14 @@ title: FAQ
   <div class="container">
 
     <div ng-repeat="question in questions">
-      <h2 class="text-center title">{(question.question)}</h2>
+      <h2 class="title">{(question.question)}</h2>
       <div class="row">
-        <div class="col-lg-6">
-          <h3>The short version...</h3>
+        <div class="col-lg-5 col-lg-offset-1">
+          <p><b>The short version...</b></p>
           <p>{(question.answers.short)}</p>
         </div>
-        <div class="col-lg-6">
-          <h3>The long version...</h3>
+        <div class="col-lg-5">
+          <p><b>The long version...</b></p>
           <p>{(question.answers.long)}</p>
         </div>
       </div>
