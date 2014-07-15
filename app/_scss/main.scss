@@ -63,9 +63,6 @@ section {
 
 .event-panel {
   min-height: 320px;
-}
-
-.panel-default {
   $blue: lighten($monkeybars-blue, 20);
   border-color: $blue;
   > .panel-heading {
