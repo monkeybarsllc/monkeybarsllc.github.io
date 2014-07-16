@@ -37,12 +37,23 @@ app.controller('FaqCtrl', ['$http', '$scope', function($http, $scope) {
 
 }]);
 
-app.controller('HomeCtrl', ['$http', '$scope', function($http, $scope) {
+app.controller('HomeCtrl', ['$filter', '$http', '$scope', function($filter, $http, $scope) {
 
   $http.get('/events/events.json')
     .success(function(data) {
       $scope.events = data;
     });
+
+  $scope.eventInit = function(event) {
+    var eventDate = $filter('date')(event.date, 'shortTime');
+    var today = new Date();
+    if (today >= eventDate) {
+      event.active = true;
+    } else {
+      event.active = false;
+    };
+    console.log('Event Date: ' + eventDate + ' Today: ' + today);
+  };
 
 }]);
 

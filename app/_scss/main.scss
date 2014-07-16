@@ -71,6 +71,10 @@ section {
   }
 }
 
+.event-active {
+  border-width: 3px;
+}
+
 .navbar-inverse {
   background-color: darken($monkeybars-blue, 25);
 }

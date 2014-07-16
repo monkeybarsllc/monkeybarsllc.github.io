@@ -1,5 +1,16 @@
 [
   {
+    "name": "Bad Idea Hackathon",
+    "date": "8/9/14 - 8/10/14",
+    "brief": "Get a team together to improve IIT.",
+    "link": "bad-idea-hackathon",
+    "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png",
+    "quote": {
+      "description": "Sometimes you have an idea, but you're not really sure what to do with it. Well the Reimagination challenge gave us the time, place and resources to help bring our ideas to life!",
+      "source": "Participant from IIT"
+    }
+  },
+  {
     "name": "Re-Imagination Challenge",
     "date": "3/29/14 - 3/30/14",
     "brief": "Get a team together to improve IIT.",

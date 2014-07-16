@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <h2 class="title">
-          Previous Events <br/>
+          Our Events <br/>
           <small class="text-left">
             From open builds to education to consulting, the MB team puts together
             a lean, mean playground experience for organizations and companies.
@@ -13,8 +13,11 @@
     </div>
 
     <div class="row event-row">
-      <div class="col-md-4" ng-repeat="event in events | limitTo:3 | orderBy:event.date">
-        <div class="panel panel-default event-panel">
+      <div class="col-md-4"
+           ng-repeat="event in events | limitTo:3 | orderBy:event.date"
+           ng-init="eventInit(event)">
+        <div class="panel panel-default event-panel"
+             ng-class="{'true':'event-active'}[event.active]">
           <div class="panel-body">
 
             <a href="/events/{(event.link)}.html">
