@@ -62,7 +62,6 @@ section {
 
 
 .event-panel {
-  min-height: 320px;
   $blue: lighten($monkeybars-blue, 20);
   border-color: $blue;
   > .panel-heading {
@@ -70,6 +69,10 @@ section {
     background-color: $blue;
     border-color: $blue;
   }
+}
+
+.event-active {
+  border-width: 3px;
 }
 
 .navbar-inverse {
