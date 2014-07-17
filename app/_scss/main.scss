@@ -5,28 +5,11 @@ $general-margin: 32px;
 
 
 @mixin responsive-bg-image($directory) {
-  width: 100%;
-  //  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  /* Retina */
-  @media screen and (min-width: 1024px){
-    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/retina.png');
-  }
-  /* Desktop */
-  @media screen and (min-width: 980px) and (max-width: 1024px){
-    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/desktop.png');
-  }
-  /* Tablet */
-  @media screen and (min-width: 760px) and (max-width: 980px){
+  background: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/retina.png') no-repeat fixed center center;
+  background-size: cover;
+  background-color: lighten($monkeybars-blue, 10);
+  @media only screen and (max-width: 767px) {
     background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/tablet.png');
-  }
-  /* Mobile HD */
-  @media screen and (min-width: 350px) and (max-width: 760px){
-    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/mobile-hd.png');
-  }
-  /* Mobile LD */
-  @media screen and (max-width: 350px){
-    background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/mobile-ld.png');
   }
 }
 
@@ -84,7 +67,6 @@ section {
 }
 
 .top {
-  background-color: lighten($monkeybars-blue, 10);
   min-height: 540px;
   color: lighten($monkeybars-blue, 60);
   small {
