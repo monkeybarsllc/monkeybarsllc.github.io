@@ -5,7 +5,9 @@ $general-margin: 32px;
 
 
 @mixin responsive-bg-image($directory) {
-  background: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/retina.png') center center cover no-repeat fixed;
+  background: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/retina.png') no-repeat fixed center center;
+  background-size: cover;
+  background-color: lighten($monkeybars-blue, 10);
   @media only screen and (max-width: 767px) {
     background-image: url('https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/backgrounds/#{$directory}/tablet.png');
   }
@@ -65,7 +67,6 @@ section {
 }
 
 .top {
-  background-color: lighten($monkeybars-blue, 10);
   min-height: 540px;
   color: lighten($monkeybars-blue, 60);
   small {
