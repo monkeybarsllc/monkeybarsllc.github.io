@@ -1,18 +1,20 @@
 [
   {
     "name": "Bad Idea Hackathon",
-    "date": "8/9/14 - 8/10/14",
-    "brief": "Get a team together to improve IIT.",
+    "start_date": "8/9/14",
+    "end_date": "8/10/14",
+    "brief": "The best time to work on your worst idea.",
     "link": "bad-idea-hackathon",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png",
     "quote": {
-      "description": "Sometimes you have an idea, but you're not really sure what to do with it. Well the Reimagination challenge gave us the time, place and resources to help bring our ideas to life!",
-      "source": "Participant from IIT"
+      "description": "At first, I was really excited to see this event be a success. Who else would ever host something this terrible? Now I just really hope this isn't considered a felony...",
+      "source": "MonkeyBars team member."
     }
   },
   {
     "name": "Re-Imagination Challenge",
-    "date": "3/29/14 - 3/30/14",
+    "start_date": "3/29/14",
+    "end_date": "3/30/14",
     "brief": "Get a team together to improve IIT.",
     "link": "re-imagination-challenge",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/re-imagination-challenge/logo.png",
@@ -23,7 +25,8 @@
   },
   {
     "name": "Gogo Hackathon",
-    "date": "2/22/14 - 2/23/14",
+    "start_date": "2/22/14",
+    "end_date": "2/23/14",
     "brief": "Generate a product or idea that helps air travelers stay connected.",
     "link": "gogo-hackathon",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/gogo-hackathon/logo.png",
@@ -34,7 +37,8 @@
   },
   {
     "name": "The Forge",
-    "date": "10/26/13 - 10/27/13",
+    "start_date": "10/26/13",
+    "end_date": "10/27/13",
     "brief": "Celebrate Chicago’s emergence as a global innovation hub.",
     "link": "the-forge",
     "logo": "https://dl.dropboxusercontent.com/u/11622340/MonkeyBars/events/the-forge/logo.png",

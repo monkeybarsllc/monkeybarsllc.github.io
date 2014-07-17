@@ -14,30 +14,39 @@
 
     <div class="row event-row">
       <div class="col-md-4"
-           ng-repeat="event in events | limitTo:3 | orderBy:event.date"
+           ng-repeat="event in events | limitTo:3 | orderBy:event.start_date"
            ng-init="eventInit(event)">
-        <div class="panel panel-default event-panel"
+        <div class="panel panel-default event-panel event-highlight-panel"
              ng-class="{'true':'event-active'}[event.active]">
           <div class="panel-body">
 
-            <a href="/events/{(event.link)}.html">
-              <h3>
+            <a href="/events/{(event.link)}.html" class="image-links">
+              <h3 ng-class="{'true':'bold'}[event.active]">
                 {(event.name)} <br/>
                 <small>
-                  {(event.date)}
+                  {(event.start_date)} - {(event.end_date)}
                 </small>
               </h3>
               <img src="{(event.logo)}" class="img-circle">
             </a>
 
             <blockquote>
-              <p class="text-left">
-                {(event.quote.description)}
-              </p>
-              <footer>
-                {(event.quote.source)}
-              </footer>
+              <div class="event-brief" ng-show="event.active">
+                <p class="text-left">
+                  {(event.brief)}
+                </p>
+              </div>
+              <div class="event-quote" ng-hide="event.active">
+                <p class="text-left">
+                  {(event.quote.description)}
+                </p>
+                <footer>
+                  {(event.quote.source)}
+                </footer>
+              </div>
             </blockquote>
+
+            <a href="#" class="btn btn-warning btn-lg btn-block" ng-show="event.active">Register Now!</a>
 
           </div>
         </div>
