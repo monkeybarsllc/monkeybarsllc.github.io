@@ -49,7 +49,7 @@ layout: default
 
     </div>
 
-    <div class="row">
+    <div class="row" ng-show="event.details.length">
       <h2 class="text-center">
         Details
       </h2>
@@ -60,7 +60,7 @@ layout: default
             <h4>What problem are we solving?</h4>
           </div>
           <div class="panel-body">
-            Some challenge statement
+            {(event.details[0].problemStatement)}
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ layout: default
             <h4>House rules</h4>
           </div>
           <div class="panel-body">
-            Maybe some list?
+            {(event.details[1].houseRules)}
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ layout: default
             <h4>Tips and other info</h4>
           </div>
           <div class="panel-body">
-            Some list, probably include Wifi codes and such.
+            {(event.details[2].tips)}
           </div>
         </div>
       </div>
@@ -102,13 +102,13 @@ layout: default
           </div>
 
           <ul class="list-group">
-            <li class="list-group-item list-group-item-info">
+            <li class="list-group-item list-group-item-info" ng-show="category.individualPrizes.length">
               <b>Each team member will receive...</b>
             </li>
             <li class="list-group-item" ng-repeat="prize in category.individualPrizes">
               {(prize.description)}
             </li>
-            <li class="list-group-item list-group-item-info">
+            <li class="list-group-item list-group-item-info" ng-show="category.teamPrizes.length">
               <b>The whole team will receive...</b>
             </li>
             <li class="list-group-item" ng-repeat="prize in category.teamPrizes">
