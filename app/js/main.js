@@ -45,13 +45,12 @@ app.controller('HomeCtrl', ['$filter', '$http', '$scope', function($filter, $htt
     });
 
   $scope.eventInit = function(event) {
-    var eventDate = $filter('date')(event.date, 'shortTime');
+    var eventDate = new Date(event.start_date)
     var today = new Date();
-    if (today >= eventDate) {
+    if (eventDate >= today)
       event.active = true;
-    } else {
+    else
       event.active = false;
-    };
     console.log('Event Date: ' + eventDate + ' Today: ' + today);
   };
 

@@ -32,22 +32,6 @@ $general-margin: 32px;
   }
 }
 
-@mixin image-links {
-  a {
-    img {
-      border: 3px solid lightgray;
-    }
-    text-decoration: none;
-    color: darken($monkeybars-blue, 25);
-    &:hover {
-      color: lighten($monkeybars-blue, 20);
-      img {
-        border: 3px solid lighten($monkeybars-blue, 20);
-      }
-    }
-  }
-}
-
 
 body {
   padding-top: 50px;
@@ -63,6 +47,10 @@ section {
 }
 
 
+.bold {
+  font-weight: 900;
+}
+
 .event-panel {
   $blue: lighten($monkeybars-blue, 20);
   border-color: $blue;
@@ -73,8 +61,38 @@ section {
   }
 }
 
+.event-highlight-panel {
+  img {
+    margin-top: 12px;
+  }
+  p {
+    margin-top: 12px;
+  }
+  @media screen and (min-width: 980px) {
+    min-height: 535px;
+  }
+}
+
 .event-active {
-  border-width: 3px;
+  border-width: 5px;
+}
+
+.image-links {
+  img {
+    border: 3px solid lightgray;
+  }
+  text-decoration: none;
+  color: darken($monkeybars-blue, 25);
+  &:hover {
+    color: lighten($monkeybars-blue, 20);
+    text-decoration: none;
+    img {
+      border: 3px solid lighten($monkeybars-blue, 20);
+    }
+  }
+  &:active {
+    text-decoration: none;
+  }
 }
 
 .navbar-inverse {
@@ -130,18 +148,7 @@ section {
   @include responsive-bg-image('about');
 }
 
-#previous-events {
-  @include image-links;
-  img {
-    margin-top: 12px;
-  }
-  p {
-    margin-top: 12px;
-  }
-}
-
 #team {
-  @include image-links;
   h4 {
     margin-bottom: $general-margin;
   }
