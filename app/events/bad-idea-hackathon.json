@@ -1,0 +1,76 @@
+{
+  "title": "Bad Idea Hackathon",
+  "dates": "August 9 - 10, 2014",
+  "banner": "/img/events/bad-idea-hackathon/banner.png",
+  "story": "MonkeyBars has teamed up with Hacker News Meetup in Chicago to bring you the worst hackathon possible. Well, the worse idea hackathon. Bring your worst ideas to hack on!",
+  "schedule": [
+    {
+      "date": "Saturday - August 9th",
+      "items": [
+        {
+          "time": "00:00",
+          "description": "Schedule is TBA"
+        }
+      ]
+    },
+    {
+      "date": "Sunday - August 10th",
+      "items": [
+        {
+          "time": "00:00",
+          "description": "Schedule TBA"
+        }
+      ]
+    }
+  ],
+  "prizeCategories": [
+    {
+      "title": "1st Place",
+      "teamPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "winningTeam": {
+        "teamName": "TBD"
+      }
+    },
+    {
+      "title": "2nd Place",
+      "teamPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "winningTeam": {
+        "teamName": "TBD"
+      }
+    },
+    {
+      "title": "3rd Runner Up",
+      "teamPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "TBA"
+        }
+      ],
+      "winningTeam": {
+        "teamName": "TBD"
+      }
+    }
+  ]
+}
