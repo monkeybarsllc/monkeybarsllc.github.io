@@ -1,7 +1,7 @@
 {
   "title": "Bad Idea Hackathon",
   "dates": "August 9 - 10, 2014",
-  "banner": "/img/events/bad-idea-hackathon/banner.png",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/bad-idea-hackathon/banner.png",
   "story": "MonkeyBars has teamed up with Hacker News Meetup in Chicago to bring you the worst hackathon possible. Well, the worse idea hackathon. Bring your worst ideas to hack on!",
   "schedule": [
     {

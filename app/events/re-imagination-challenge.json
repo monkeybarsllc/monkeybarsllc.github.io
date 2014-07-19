@@ -1,7 +1,7 @@
 {
   "title": "Re-Imagination Challenge",
   "dates": "March 29 - 30, 2014",
-  "banner": "/img/events/re-imagination-challenge/banner.png",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/re-imagination-challenge/banner.png",
   "story": "Hey IIT Students, put the money where your mouth is and create some innovative ideas to change the face of IIT. Get a team together to improve our school in this Hackathon style challenge. 24 hours of re-imagination. Are you ready? Participants will have the chance to be mentored by Google employees and Institute of Design faculty/students. Winning ideas will be implemented on campus.",
   "schedule": [
     {
@@ -79,7 +79,7 @@
       ],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/peer-choice.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/peer-choice.jpg",
         "teamName": "Team 363",
         "projectBrief": "gamify-ing the college experience"
       }
@@ -98,7 +98,7 @@
       ],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-first.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-first.jpg",
         "teamName": "Plannr",
         "projectBrief": "a better course planner for students"
       }
@@ -117,7 +117,7 @@
       ],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-second.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-second.jpg",
         "teamName": "PublicIITy",
         "projectBrief": "IIT highlights in podcast form"
       }

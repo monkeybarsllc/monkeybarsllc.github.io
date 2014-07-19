@@ -1,7 +1,7 @@
 {
   "title": "Gogo Hackathon",
   "dates": "February 26 - 27, 2013",
-  "banner": "/img/events/gogo-hackathon/banner.png",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/gogo-hackathon/banner.png",
   "story": "MonkeyBars brought together Gogo Air executives with engineering, design and business students to create and ideate around Gogo’s stickiest problems. Through group discovery and prototyping sessions, teams engaged with heads of product, marketing and software to be innovation consultants for the weekend.",
   "schedule": [
     {
@@ -71,7 +71,7 @@
       "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/peer-choice.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/peer-choice.jpg",
         "teamName": "Team Mindmappers",
         "projectBrief": "mind-mapped Wikipedia to create an intuitive learning tool"
       }
@@ -86,7 +86,7 @@
       ],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-first.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-first.jpg",
         "teamName": "Team Rubix Virtual",
         "projectBrief": "created an interface to control a virtual Rubik's Cube with a Leap Motion"
       }
@@ -101,7 +101,7 @@
       ],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-second.jpg",
+        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-second.jpg",
         "teamName": "Team Vidgeo",
         "projectBrief": "created an app that merges geo-location and video creation"
       }
