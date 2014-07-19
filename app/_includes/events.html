@@ -49,6 +49,7 @@
             <a href="{(event.reg_link)}"
                target="_blank"
                class="btn btn-warning btn-lg btn-block"
+               ng-class="{'#':'disabled'}[event.reg_link]"
                ng-show="event.active">
               Register Now!
             </a>
