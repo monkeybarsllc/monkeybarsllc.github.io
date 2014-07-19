@@ -69,17 +69,13 @@
       "title": "Simple Implementation",
       "teamPrizes": [
         {
-          "description": "1 UP Mini 3D Printer (Sponsored by Inventables)"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "3 months free access to Blue1647"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/peer-choice.jpg",
+        "imageLink": "",
         "teamName": "Team 363",
         "projectBrief": "gamify-ing the college experience"
       }
@@ -88,17 +84,13 @@
       "title": "Complex Implementation",
       "teamPrizes": [
         {
-          "description": "1 Jetbrains IDE"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "1 Leap Motion"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-first.jpg",
+        "imageLink": "",
         "teamName": "Plannr",
         "projectBrief": "a better course planner for students"
       }
@@ -107,17 +99,13 @@
       "title": "Peer Choice",
       "teamPrizes": [
         {
-          "description": "1 Jetbrains IDE"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "1 $100 Gift Card to Inventables"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/judges-second.jpg",
+        "imageLink": "",
         "teamName": "PublicIITy",
         "projectBrief": "IIT highlights in podcast form"
       }
