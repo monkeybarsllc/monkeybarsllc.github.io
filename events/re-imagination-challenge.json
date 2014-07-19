@@ -1,7 +1,7 @@
 {
   "title": "Re-Imagination Challenge",
   "dates": "March 29 - 30, 2014",
-  "banner": "/img/events/re-imagination-challenge/banner.png",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/re-imagination-challenge/banner.png",
   "story": "Hey IIT Students, put the money where your mouth is and create some innovative ideas to change the face of IIT. Get a team together to improve our school in this Hackathon style challenge. 24 hours of re-imagination. Are you ready? Participants will have the chance to be mentored by Google employees and Institute of Design faculty/students. Winning ideas will be implemented on campus.",
   "schedule": [
     {
@@ -63,22 +63,19 @@
       ]
     }
   ],
+  "details": [],
   "prizeCategories": [
     {
       "title": "Simple Implementation",
       "teamPrizes": [
         {
-          "description": "1 UP Mini 3D Printer (Sponsored by Inventables)"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "3 months free access to Blue1647"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/peer-choice.jpg",
+        "imageLink": "",
         "teamName": "Team 363",
         "projectBrief": "gamify-ing the college experience"
       }
@@ -87,17 +84,13 @@
       "title": "Complex Implementation",
       "teamPrizes": [
         {
-          "description": "1 Jetbrains IDE"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "1 Leap Motion"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-first.jpg",
+        "imageLink": "",
         "teamName": "Plannr",
         "projectBrief": "a better course planner for students"
       }
@@ -106,17 +99,13 @@
       "title": "Peer Choice",
       "teamPrizes": [
         {
-          "description": "1 Jetbrains IDE"
+          "description": "Funding to continue product development on campus"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "1 $100 Gift Card to Inventables"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam":
       {
-        "imageLink": "/img/events/the-forge/judges-second.jpg",
+        "imageLink": "",
         "teamName": "PublicIITy",
         "projectBrief": "IIT highlights in podcast form"
       }
