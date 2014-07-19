@@ -23,6 +23,12 @@ app.controller('EventCtrl', ['$http', '$scope', function($http, $scope) {
     $http.get('/events/' + data + '.json')
       .success(function(data) {
         $scope.event = data;
+        var eventDate = new Date($scope.event.start_date)
+        var today = new Date();
+        if (eventDate >= today)
+          $scope.event.active = true;
+        else
+          $scope.event.active = false;
       });
   };
 
@@ -51,7 +57,6 @@ app.controller('HomeCtrl', ['$filter', '$http', '$scope', function($filter, $htt
       event.active = true;
     else
       event.active = false;
-    console.log('Event Date: ' + eventDate + ' Today: ' + today);
   };
 
 }]);
