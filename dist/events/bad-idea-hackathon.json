@@ -1,9 +1,21 @@
 {
   "title": "Bad Idea Hackathon",
-  "dates": "August 9 - 10, 2014",
-  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/bad-idea-hackathon/banner.png",
-  "story": "MonkeyBars has teamed up with Hacker News Meetup in Chicago to bring you the worst hackathon possible. Well, the worse idea hackathon. Bring your worst ideas to hack on!",
+  "dates": "August 8 - 10, 2014",
+  "start_date": "8/8/2014",
+  "end_date": "8/10/2014",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/bad-idea-hackathon/banner-new.png",
+  "story": "The basic idea is that we get 125 or so developers and designers in a place, divide them up into teams of 4-6, and they sprint to build a website or app or business in a weekend.",
+  "reg_link": "http://www.eventbrite.com/e/bad-idea-hackathon-tickets-12298885297",
   "schedule": [
+    {
+      "date": "Friday - August 8th",
+      "items": [
+        {
+          "time": "00:00",
+          "description": "Schedule is TBA"
+        }
+      ]
+    },
     {
       "date": "Saturday - August 9th",
       "items": [
@@ -25,60 +37,51 @@
   ],
   "details": [
     {
-      "problemStatement": "TBA"
+      "header": "What problem are we solving?",
+      "description": "TBA"
     },
     {
-      "houseRules": "TBA"
+      "header": "House Rules",
+      "description": "TBA"
     },
     {
-      "tips": "TBA"
+      "header": "Extra Info",
+      "description": "TBA"
     }
   ],
   "prizeCategories": [
     {
-      "title": "1st Place",
+      "title": "Worst Idea Possible",
       "teamPrizes": [
         {
-          "description": "TBA"
+          "description": "7 boxes of expired Hostess Twinkies"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "TBA"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam": {
         "teamName": "TBD"
       }
     },
     {
-      "title": "2nd Place",
+      "title": "Second Worst Idea",
       "teamPrizes": [
         {
-          "description": "TBA"
+          "description": "4 used garbage bags"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "TBA"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam": {
         "teamName": "TBD"
       }
     },
     {
-      "title": "3rd Runner Up",
+      "title": "You're at the wrong event",
       "teamPrizes": [
         {
-          "description": "TBA"
+          "description": "100 plastic spiders"
         }
       ],
-      "individualPrizes": [
-        {
-          "description": "TBA"
-        }
-      ],
+      "individualPrizes": [],
       "winningTeam": {
         "teamName": "TBD"
       }
