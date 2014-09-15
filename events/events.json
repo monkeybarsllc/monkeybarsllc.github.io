@@ -4,7 +4,7 @@
     "start_date": "10/11/14",
     "end_date": "10/12/14",
     "brief": "Looking to break into the internet of things? Cisco has brought MonkeyBars on board to help you do just that during a 24 hour build session at 1871.",
-    "link": "",
+    "link": "http://hackathon.iotwf.com/",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/iotwf-hackathon/logo.png",
     "quote": {
       "description": "I do believe this event will be smashing.",
@@ -17,7 +17,7 @@
     "start_date": "9/27/14",
     "end_date": "9/28/14",
     "brief": "MonkeyBars is teaming up with TechNexus to try out some new hackathon techniques and we need guinea pigs!!!",
-    "link": "",
+    "link": "/events/open-build.html",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/bad-idea-hackathon/logo.png",
     "quote": {
       "description": "I do believe this event will be smashing.",
@@ -30,7 +30,7 @@
     "start_date": "3/29/14",
     "end_date": "3/30/14",
     "brief": "Get a team together to improve IIT.",
-    "link": "re-imagination-challenge",
+    "link": "/events/re-imagination-challenge.html",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/re-imagination-challenge/logo.png",
     "quote": {
       "description": "Sometimes you have an idea, but you're not really sure what to do with it. Well the Reimagination challenge gave us the time, place and resources to help bring our ideas to life!",
@@ -43,7 +43,7 @@
     "start_date": "2/22/14",
     "end_date": "2/23/14",
     "brief": "Generate a product or idea that helps air travelers stay connected.",
-    "link": "gogo-hackathon",
+    "link": "/events/gogo-hackathon.html",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/gogo-hackathon/logo.png",
     "quote": {
       "description": "... it was a great experience to get people that aren’t exposed to our technologies to come up with ideas. Just seeing how much can be built in a short period... our team usually takes a lot longer.",
@@ -56,7 +56,7 @@
     "start_date": "10/26/13",
     "end_date": "10/27/13",
     "brief": "Celebrate Chicago’s emergence as a global innovation hub.",
-    "link": "the-forge",
+    "link": "/events/the-forge.html",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/the-forge/logo.png",
     "quote": {
       "description": "I think anytime you end up with a group...on a bigger scale, you gain experience working with other people and bridging ideas and that’s what’s really important about hackathons.",
