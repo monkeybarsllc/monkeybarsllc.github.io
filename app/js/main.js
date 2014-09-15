@@ -23,7 +23,7 @@ app.controller('EventCtrl', ['$http', '$scope', function($http, $scope) {
     $http.get('/events/' + data + '.json')
       .success(function(data) {
         $scope.event = data;
-        var eventDate = new Date($scope.event.start_date)
+        var eventDate = new Date($scope.event.start_date);
         var today = new Date();
         if (eventDate >= today)
           $scope.event.active = true;
