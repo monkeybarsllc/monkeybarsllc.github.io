@@ -1,10 +1,23 @@
 [
   {
+    "name": "IoTWF Hackathon",
+    "start_date": "10/11/14",
+    "end_date": "10/12/14",
+    "brief": "Looking to break into the internet of things? Cisco has brought MonkeyBars on board to help you do just that during a 24 hour build session at 1871.",
+    "link": "",
+    "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/iotwf-hackathon/logo.png",
+    "quote": {
+      "description": "I do believe this event will be smashing.",
+      "source": "Gordon the monkey"
+    },
+    "reg_link": "http://hackathon.iotwf.com/"
+  },
+  {
     "name": "MonkeyBars Open Build",
     "start_date": "9/27/14",
     "end_date": "9/28/14",
     "brief": "MonkeyBars is teaming up with TechNexus to try out some new hackathon techniques and we need guinea pigs!!!",
-    "link": "#",
+    "link": "",
     "logo": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/bad-idea-hackathon/logo.png",
     "quote": {
       "description": "I do believe this event will be smashing.",
