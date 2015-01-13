@@ -4,7 +4,7 @@
   "start_date": "9/27/2014",
   "end_date": "9/28/2014",
   "reg_link": "http://www.eventbrite.com/e/monkeybars-open-build-tickets-12926717159",
-  "banner": "",
+  "banner": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/10917187_872355082825749_4507079468301457099_o.png",
   "story": "Work on Whatever you Feel Like! We’re hosting an Open Build on September 27 where you can work on whatever you feel like, technical or non technical, from scratch or a current product. Whatever.",
   "schedule": [
     {
@@ -69,20 +69,54 @@
   "details": [],
   "prizeCategories": [
     {
-      "title": "TBA",
+      "title": "Judge's 1st Place",
       "teamPrizes": [
         {
-          "description": "TBA"
+          "description": "Presentation slot at UNCUBED"
         }
       ],
       "individualPrizes": [
         {
-          "description": "TBA"
+          "description": "Team members will get first pick of the pot of available prizes"
         }
       ],
       "winningTeam":
       {
-        "imageLink": "",
+        "imageLink": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t31.0-8/10896230_872365839491340_177356235105657292_o.jpg",
+        "teamName": "TBD",
+        "projectBrief": "TBD"
+      }
+    },
+    {
+      "title": "Judge's 2nd Place",
+      "teamPrizes": [],
+      "individualPrizes": [
+        {
+          "description": "Team members will get second pick of the pot of available prizes"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/10887587_872365842824673_7050849359977161199_o.jpg",
+        "teamName": "TBD",
+        "projectBrief": "TBD"
+      }
+    },
+    {
+      "title": "Peer Choice",
+      "teamPrizes": [
+        {
+          "description": "Presentation slot at UNCUBED"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "Team members will get third pick of the pot of available prizes"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://scontent-b-ord.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1973649_872365829491341_4635798017532217596_o.jpg",
         "teamName": "TBD",
         "projectBrief": "TBD"
       }
