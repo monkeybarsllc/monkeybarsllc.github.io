@@ -1,5 +1,18 @@
 [
   {
+    "name": "OpenBuild",
+    "start_date": "1/31/15",
+    "end_date": "2/1/15",
+    "brief": "Learn, make and tinker with fellow makers, developers, and creatives.",
+    "link": "/events/open-build-1-31-15.html",
+    "logo": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/t31.0-8/10917187_872355082825749_4507079468301457099_o.png",
+    "quote": {
+      "description": "I do believe this event will be smashing.",
+      "source": "Gordon Monkey"
+    },
+    "reg_link": "https://www.eventbrite.com/e/openbuild-tickets-15395924625"
+  },
+  {
     "name": "IoTWF Hackathon",
     "start_date": "10/11/14",
     "end_date": "10/12/14",
