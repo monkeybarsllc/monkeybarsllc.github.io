@@ -4,34 +4,9 @@ $monkeybars-lightbrown: #D2B9A0;
 $general-margin: 32px;
 
 
-@mixin responsive-bg-image($directory) {
-  background: lighten($monkeybars-blue, 10) no-repeat fixed center center;
-  background-size: cover;
-  @media only screen and (max-width: 767px) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/tablet.png');
-  }
-  /* Retina */
-  @media screen and (min-width: 1024px){
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/retina.png');
-  }
-  /* Desktop */
-  @media screen and (min-width: 980px) and (max-width: 1024px){
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/desktop.png');
-  }
-  /* Tablet */
-  @media screen and (min-width: 760px) and (max-width: 980px){
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/tablet.png');
-  }
-  /* Mobile HD */
-  @media screen and (min-width: 350px) and (max-width: 760px){
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/mobile-hd.png');
-  }
-  /* Mobile LD */
-  @media screen and (max-width: 350px){
-    background-image: url('https://s3-us-west-2.amazonaws.com/monkeybars-website/backgrounds/#{$directory}/mobile-ld.png');
-  }
+html, body {
+  height: 100%;
 }
-
 
 body {
   padding-top: 50px;
@@ -40,10 +15,6 @@ body {
 
 h1 {
   margin-bottom: $general-margin;
-}
-
-section {
-  padding-top: $general-margin;
 }
 
 
@@ -84,6 +55,9 @@ section {
 .image-links {
   img {
     border: 3px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 150px;
   }
   text-decoration: none;
   color: darken($monkeybars-blue, 25);
@@ -100,25 +74,36 @@ section {
 }
 
 .navbar-inverse {
-  background-color: darken($monkeybars-blue, 25);
+  background-color: darken($monkeybars-blue, 10);
+  border-bottom: 2px solid darken($monkeybars-blue, 25);
+}
+
+.page-title {
+  margin-top: 30%;
 }
 
 .title {
-  margin-bottom: ($general-margin*1.5);
+  margin-top: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: darken($monkeybars-blue, 20);
+  color: #f5f5f5;
 }
 
 .top {
-  min-height: 540px;
-  background-color: lighten($monkeybars-blue, 10);
   color: lighten($monkeybars-blue, 60);
   small {
-    color: #ffffff;
-  }
-  .title {
-    margin-top: 168px;
+    color: lighten($monkeybars-blue, 60);
   }
 }
 
+#affiliates {
+  margin-top: $general-margin;
+}
+
+#contact-us {
+  margin-top: $general-margin;
+}
 
 #event-summary {
   .banner {
@@ -132,8 +117,21 @@ section {
   }
 }
 
+#faq {
+  background-size: cover;
+  background: url('https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/t31.0-8/1115916_817944334933491_3945163581858399532_o.jpg') no-repeat fixed center -300px;
+  .background {
+    min-height: 540px;
+    background: rgba(77, 104, 136, 0.9);
+  }
+}
+
 #highlights {
-  @include responsive-bg-image('home');
+  background-size: cover;
+  background: url('https://scontent-b-ord.xx.fbcdn.net/hphotos-xap1/t31.0-8/1557133_817942824933642_9032438568046609182_o.jpg') no-repeat fixed center -150px;
+  .background {
+    background: rgba(77, 104, 136, 0.9);
+  }
   #mc_embed_signup {
     margin-top: ($general-margin/2);
   }
@@ -149,20 +147,41 @@ section {
 }
 
 #mission {
-  @include responsive-bg-image('about');
+  background-size: cover;
+  background: url('https://scontent-b-ord.xx.fbcdn.net/hphotos-xap1/l/t31.0-8/1597256_817942814933643_1745618314140258560_o.jpg') no-repeat fixed center -300px;
+  .background {
+    min-height: 540px;
+    background: rgba(77, 104, 136, 0.9);
+  }
 }
 
 #team {
+  margin-top: $general-margin;
   h4 {
     margin-bottom: $general-margin;
   }
 }
 
 #site-footer {
-  background-color: darken($monkeybars-blue, 25);
-  height: 84px;
-  color: lighten($monkeybars-blue, 80);
-  padding-top: $general-margin;
-  padding-bottom: $general-margin;
-  margin-top: $general-margin;
+  padding-top: 14px;
+  margin-top: 24px;
+  background-color: darken($monkeybars-blue, 10);
+  color: lightgray;
+  min-height: 5%;
+  a {
+    color: lightgray;
+    font-weight: 600;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+#resources {
+  background-size: cover;
+  background: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/t31.0-8/10644659_817943434933581_7786275292844562474_o.jpg') no-repeat fixed center -300px;
+  .background {
+    min-height: 540px;
+    background: rgba(77, 104, 136, 0.9);
+  }
 }

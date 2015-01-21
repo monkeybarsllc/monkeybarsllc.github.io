@@ -1,9 +1,12 @@
-<section id="previous-events" ng-controller="HomeCtrl">
+<section id="events" ng-controller="HomeCtrl">
+  <h2 class="title text-center">
+    Our Events
+  </h2>
+
   <div class="container text-center">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-        <h2 class="title">
-          Our Events <br/>
+        <h2>
           <small class="text-left">
             From open builds to education to consulting, the MB team puts together
             a lean, mean playground experience for organizations and companies.
@@ -27,7 +30,7 @@
                   {(event.start_date)} - {(event.end_date)}
                 </small>
               </h3>
-              <img src="{(event.logo)}" class="img-circle">
+              <img src="{(event.logo)}" class="img-responsive img-circle">
             </a>
 
             <blockquote>
