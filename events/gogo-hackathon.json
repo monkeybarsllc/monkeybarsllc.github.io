@@ -1,0 +1,101 @@
+{
+  "title": "Gogo Hackathon",
+  "dates": "February 26 - 27, 2013",
+  "banner": "https://s3-us-west-2.amazonaws.com/monkeybars-website/events/gogo-hackathon/banner.png",
+  "story": "MonkeyBars brought together Gogo Air executives with engineering, design and business students to create and ideate around Gogo’s stickiest problems. Through group discovery and prototyping sessions, teams engaged with heads of product, marketing and software to be innovation consultants for the weekend.",
+  "schedule": [
+    {
+      "date": "Saturday - February 22nd",
+      "items": [
+        {
+          "time": "11:00am",
+          "description": "Doors open"
+        },
+        {
+          "time": "11:30am",
+          "description": "Lunch from Yindee & Opening Remarks"
+        },
+        {
+          "time": "12:00pm",
+          "description": "Building Starts!"
+        },
+        {
+          "time": "7:00pm",
+          "description": "Dinner from Beezzee"
+        },
+        {
+          "time": "11:00pm",
+          "description": "Late Night Snack from Black Dog Gelatto"
+        }
+      ]
+    },
+    {
+      "date": "Sunday - February 23rd",
+      "items": [
+        {
+          "time": "7:00am",
+          "description": "Breakfast from Glazed and Infused"
+        },
+        {
+          "time": "11:00am",
+          "description": "Lunch from Lou Malnati's"
+        },
+        {
+          "time": "12:00pm",
+          "description": "Building Stops!"
+        },
+        {
+          "time": "12:15pm",
+          "description": "Project Presentations"
+        },
+        {
+          "time": "1:00pm",
+          "description": "Prizes!"
+        },
+        {
+          "time": "2:00pm",
+          "description": "Leave for sleep"
+        }
+      ]
+    }
+  ],
+  "details" : [],
+  "prizeCategories": [
+    {
+      "title": "1st Place",
+      "teamPrizes": [
+        {
+          "description": "Cube Personal 3D Printer"
+        }
+      ],
+      "individualPrizes": [],
+      "winningTeam": {
+        "teamName": "TBA"
+      }
+    },
+    {
+      "title": "2nd Place",
+      "teamPrizes": [],
+      "individualPrizes": [
+        {
+          "description": "1 Chromebook"
+        }
+      ],
+      "winningTeam": {
+        "teamName": "TBA"
+      }
+    },
+    {
+      "title": "3rd Runner Up",
+      "teamPrizes": [],
+      "individualPrizes": [
+        {
+          "description": "1 Pebble Watch"
+        }
+      ],
+      "winningTeam": {
+        "teamName": "TBA"
+      }
+    }
+  ]
+}

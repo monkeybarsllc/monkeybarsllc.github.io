@@ -1,0 +1,125 @@
+{
+  "title": "Open Build Hackathon",
+  "dates": "September 27 - 28, 2014",
+  "start_date": "9/27/2014",
+  "end_date": "9/28/2014",
+  "reg_link": "http://www.eventbrite.com/e/monkeybars-open-build-tickets-12926717159",
+  "banner": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/10917187_872355082825749_4507079468301457099_o.png",
+  "story": "Work on Whatever you Feel Like! We’re hosting an Open Build on September 27 where you can work on whatever you feel like, technical or non technical, from scratch or a current product. Whatever.",
+  "schedule": [
+    {
+      "date": "Saturday - September 27th",
+      "items": [
+        {
+          "time": "11:00am",
+          "description": "Doors Open"
+        },
+        {
+          "time": "11:30am",
+          "description": "Lunch"
+        },
+        {
+          "time": "12:00pm",
+          "description": "Opening Remarks"
+        },
+        {
+          "time": "12:30pm",
+          "description": "Building Starts!"
+        },
+        {
+          "time": "6:00pm",
+          "description": "Dinner"
+        },
+        {
+          "time": "12:00am",
+          "description": "Midnight Snack"
+        }
+      ]
+    },
+    {
+      "date": "Sunday - September 28th",
+      "items": [
+        {
+          "time": "7:00am",
+          "description": "Breakfast"
+        },
+        {
+          "time": "12:30pm",
+          "description": "Lunch"
+        },
+        {
+          "time": "12:30pm",
+          "description": "Building Stops!"
+        },
+        {
+          "time": "1:00pm",
+          "description": "Pecha Kechu Style Presentations"
+        },
+        {
+          "time": "2:00pm",
+          "description": "Judging & Closing Remarks"
+        },
+        {
+          "time": "2:30pm",
+          "description": "Go home and sleep"
+        }
+      ]
+    }
+  ],
+  "details": [],
+  "prizeCategories": [
+    {
+      "title": "Judge's 1st Place",
+      "teamPrizes": [
+        {
+          "description": "Presentation slot at UNCUBED"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "Team members will get first pick of the pot of available prizes"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t31.0-8/10896230_872365839491340_177356235105657292_o.jpg",
+        "teamName": "Go-Makan.com",
+        "projectBrief": "Food truck services"
+      }
+    },
+    {
+      "title": "Judge's 2nd Place",
+      "teamPrizes": [],
+      "individualPrizes": [
+        {
+          "description": "Team members will get second pick of the pot of available prizes"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/10887587_872365842824673_7050849359977161199_o.jpg",
+        "teamName": "Cluster Design Issues",
+        "projectBrief": "GPS coralling with phones"
+      }
+    },
+    {
+      "title": "Peer Choice",
+      "teamPrizes": [
+        {
+          "description": "Presentation slot at UNCUBED"
+        }
+      ],
+      "individualPrizes": [
+        {
+          "description": "Team members will get third pick of the pot of available prizes"
+        }
+      ],
+      "winningTeam":
+      {
+        "imageLink": "https://scontent-b-ord.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1973649_872365829491341_4635798017532217596_o.jpg",
+        "teamName": "Riley Masunaga",
+        "projectBrief": "An inventive way to insult others"
+      }
+    }
+  ]
+}
